@@ -53,7 +53,7 @@ print(theta)
 ## 结果绘图
 plt.figure()
 IT = np.linspace(0,numIterations,100)
-#绘值公路客运量对比图；
+#绘值对比图；
 plt.title(u'loss ')
 plt.plot( num,costs,'r:o',label=u'')
 plt.xlabel (u'迭代次数')
